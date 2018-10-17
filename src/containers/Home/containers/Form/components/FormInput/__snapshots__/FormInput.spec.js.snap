@@ -1,0 +1,319 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormInput should render description 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <FormInput
+    id="amount"
+    label="Amount"
+    onChange={[Function]}
+    rows={5}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <label
+          htmlFor="amount"
+>
+          Amount
+          :
+</label>,
+        <textarea
+          className="form-control"
+          id="amount"
+          onChange={[Function]}
+          placeholder="Enter Amount..."
+          rows={5}
+/>,
+      ],
+      "className": "form-group",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Amount",
+            ":",
+          ],
+          "htmlFor": "amount",
+        },
+        "ref": null,
+        "rendered": Array [
+          "Amount",
+          ":",
+        ],
+        "type": "label",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "form-control",
+          "id": "amount",
+          "onChange": [Function],
+          "placeholder": "Enter Amount...",
+          "rows": 5,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "textarea",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <label
+            htmlFor="amount"
+>
+            Amount
+            :
+</label>,
+          <textarea
+            className="form-control"
+            id="amount"
+            onChange={[Function]}
+            placeholder="Enter Amount..."
+            rows={5}
+/>,
+        ],
+        "className": "form-group",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Amount",
+              ":",
+            ],
+            "htmlFor": "amount",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Amount",
+            ":",
+          ],
+          "type": "label",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "form-control",
+            "id": "amount",
+            "onChange": [Function],
+            "placeholder": "Enter Amount...",
+            "rows": 5,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "textarea",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`FormInput should render without description 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <FormInput
+    id="amount"
+    label="Amount"
+    onChange={[Function]}
+    type="number"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <label
+          htmlFor="amount"
+>
+          Amount
+          :
+</label>,
+        <input
+          className="form-control"
+          id="amount"
+          onChange={[Function]}
+          placeholder="Enter Amount..."
+          type="number"
+/>,
+      ],
+      "className": "form-group",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Amount",
+            ":",
+          ],
+          "htmlFor": "amount",
+        },
+        "ref": null,
+        "rendered": Array [
+          "Amount",
+          ":",
+        ],
+        "type": "label",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "form-control",
+          "id": "amount",
+          "onChange": [Function],
+          "placeholder": "Enter Amount...",
+          "type": "number",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "input",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <label
+            htmlFor="amount"
+>
+            Amount
+            :
+</label>,
+          <input
+            className="form-control"
+            id="amount"
+            onChange={[Function]}
+            placeholder="Enter Amount..."
+            type="number"
+/>,
+        ],
+        "className": "form-group",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Amount",
+              ":",
+            ],
+            "htmlFor": "amount",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Amount",
+            ":",
+          ],
+          "type": "label",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "form-control",
+            "id": "amount",
+            "onChange": [Function],
+            "placeholder": "Enter Amount...",
+            "type": "number",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
